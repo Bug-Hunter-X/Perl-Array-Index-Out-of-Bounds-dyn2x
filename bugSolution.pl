@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); my $size = @array; #Get the size of the array my $element; if ($size > 0) {  $element = $array[0]; #Always access a valid index } else {  $element = undef; #Handle empty array case } print "First element: $element\n";
